@@ -10,9 +10,12 @@ class Owner
     @name
   end
 
+  @@all = []
+
   def initialize(name)
     @species = "human"
     @name = name
+    @@all << self
   end
 
   def say_species
