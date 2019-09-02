@@ -43,7 +43,7 @@ class Owner
   end
 
   def buy_cat(cat)
-    cat.owner=self
+    Cat.all.detect {|kitty| kitty.name == cat}
   end
 
 
