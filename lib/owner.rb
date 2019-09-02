@@ -26,5 +26,9 @@ class Owner
     puts "I am a #{self.species}."
   end
 
+  def self.reset_all
+    @@all.clear
+  end
+
 
 end
