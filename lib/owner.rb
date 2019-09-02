@@ -1,6 +1,6 @@
 class Owner
 
-  #attr_accessor
+  #attr_accessor not used because name & species unchangeable
 
   @@all = []
 
