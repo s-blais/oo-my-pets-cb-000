@@ -2,8 +2,9 @@ class Owner
 
   #attr_accessor
 
-  def initialize
+  def initialize(name)
     @species = "human"
+    @name = name
   end
 
   def species #getter only because can't be changed
