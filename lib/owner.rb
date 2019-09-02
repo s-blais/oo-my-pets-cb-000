@@ -1,6 +1,7 @@
 class Owner
 
   #attr_accessor not used because name & species unchangeable
+  attr_reader :species, :name
 
   @@all = []
 
@@ -8,14 +9,6 @@ class Owner
     @species = "human"
     @name = name
     @@all << self
-  end
-
-  def species #getter only because can't be changed
-    @species
-  end
-
-  def name #getter only because can't be changed
-    @name
   end
 
   def self.all
