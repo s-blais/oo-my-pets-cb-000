@@ -1,6 +1,5 @@
 class Owner
 
-  #attr_accessor not used because name & species unchangeable
   attr_reader :species, :name
 
   @@all = []
